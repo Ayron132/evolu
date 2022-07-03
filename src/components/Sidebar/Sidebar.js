@@ -12,7 +12,7 @@ function Sidebar({ isOpen, toggle }) {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="about">
+                    <SidebarLink to="/about">
                         About
                     </SidebarLink>
                 </SidebarMenu>

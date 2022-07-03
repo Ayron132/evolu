@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const OnlineFilter = styled.div`
     margin-top: 30px;
     align-items: center;
+    text-align: center;
     padding: 0px 21px 0px 21px;
 `
 

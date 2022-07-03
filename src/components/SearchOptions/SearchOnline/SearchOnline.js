@@ -5,17 +5,17 @@ import {
     Option,
     Button,
     InputContainer
-} from "./PesquisaOnlineStyle"
+} from "./SearchOnlineStyle"
 
-function PesquisaOnline() {
+function SearchOnline() {
 
 
-    const lista = ["mapa solar", "mapa astral"];
+    const search_list = ["mapa solar", "mapa astral"];
     return (
         <InputContainer>
-            <Input placeholder='Nome, especialidade ou serviço' list="lista" />
-            <DataList id="lista">
-                {lista.map((item) => (
+            <Input placeholder='Nome, especialidade ou serviço' list="list_search" />
+            <DataList id="list_search">
+                {search_list.map((item) => (
                     <Option key={item} value={item} />
                 ))}
             </DataList>
@@ -24,4 +24,4 @@ function PesquisaOnline() {
     )
 }
 
-export default PesquisaOnline
+export default SearchOnline

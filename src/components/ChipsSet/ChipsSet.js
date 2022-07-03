@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import {
     LabelText,
     Button,
     OnlineFilter
-} from "./ConjuntoChipsStyle";
+} from "./ChipsSetStyle";
 
-function ConjuntoChips() {
+function ChipsSet() {
     //const lista = ["Aromaterapia","Ayurveda","Búzios","Mapa astral","Mapa solar", "Meditação","Astrocartografia","Ver todos"];
     return (
         // <OnlineFilter>
@@ -49,4 +49,4 @@ function ConjuntoChips() {
     )
 }
 
-export default ConjuntoChips;
+export default ChipsSet;

@@ -3,8 +3,8 @@ import Sidebar from '../../components/Sidebar/Sidebar';
 import Navbar from '../../components/Navbar/Navbar';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ClientOptions from '../../components/ClientOptions/ClientOptions';
 import HomeBar from '../../components/HomeBar/HomeBar';
+import Body from '../../components/Body/Body';
 
 
 
@@ -19,9 +19,8 @@ function HomeEvolunaOnline() {
             <Navbar toggle={toggle} />
             <HomeBar/>
             <Routes>
-                <Route path="/" element={<ClientOptions />}></Route>
+                <Route path="/" element={<Body />}></Route>
             </Routes>
-        
         </BrowserRouter>
     )
 }

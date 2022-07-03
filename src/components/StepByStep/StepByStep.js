@@ -1,21 +1,21 @@
 import React from 'react'
-import { P, Item, Items, Headline, Pcontainer, Section, Icon } from './PassoAPassoStyle'
+import { P, Item, Items, Headline, Pcontainer, Section, SearchIcon, ScheduleIcon, CreditCardIcon } from './StepByStepStyle'
 
 
-function PassoAPasso() {
+function StepByStep() {
     return (
         <Section>
             <Pcontainer>
                 <Items>
-                    <Headline><Icon/>{'  '}Encontre profissionais</Headline>
+                    <Headline><SearchIcon/>{'  '}Encontre profissionais</Headline>
                     <Item>
                         <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eros justo, vestibulum ut dignissim sit amet, lobortis vel lacus.</P>
                     </Item>
-                    <Headline>Agende consultas</Headline>
+                    <Headline><ScheduleIcon/>{'  '}Agende consultas</Headline>
                     <Item>
                         <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eros justo, vestibulum ut dignissim sit amet, lobortis vel lacus. </P>
                     </Item>
-                    <Headline>Pague pelo site</Headline>
+                    <Headline><CreditCardIcon/>{'  '}Pague pelo site</Headline>
                     <Item>
                         <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eros justo, vestibulum ut dignissim sit amet, lobortis vel lacus. </P>
                     </Item>
@@ -25,4 +25,4 @@ function PassoAPasso() {
     )
 }
 
-export default PassoAPasso
+export default StepByStep

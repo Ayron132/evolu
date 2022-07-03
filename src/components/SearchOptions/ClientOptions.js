@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
-import PesquisaOnline from '../PesquisaOnline/PesquisaOnline';
-import ConjuntoChips from '../ConjuntoChips/ConjuntoChips';
-import PassoAPasso from '../PassoAPasso/PassoAPasso';
+
+//style
 import {
     OnlineContainer,
     LabelText,
@@ -12,8 +11,14 @@ import {
     OnlineP,
     CheckBtn
 } from "./ClientOptionsStyle";
-import PesquisaTodos from '../PesquisaTodos/PesquisaTodos';
-import PesquisaPresencial from '../PesquisaPresencial/PesquisaPresencial';
+
+
+//components
+
+
+import SearchAll from './SearchAll/SearchAll';
+import SearchInPerson from './SearchInPerson/SearchInPerson';
+import SearchOnline from './SearchOnline/SearchOnline';
 
 
 function ClientOptions() {
@@ -50,11 +55,9 @@ function ClientOptions() {
 
 
             {/* corpo */}
-            {checked === 'todos' ? <PesquisaTodos /> : ""}
-            {checked === 'online' ? <PesquisaOnline/> : ""}
-            {checked === 'presencial' ? <PesquisaPresencial /> : ""}
-            <ConjuntoChips />
-            <PassoAPasso/>
+            {checked === 'todos' ? <SearchAll /> : ""}
+            {checked === 'online' ? <SearchOnline/> : ""}
+            {checked === 'presencial' ? <SearchInPerson /> : ""}
         </OnlineContainer>
         </>
     )

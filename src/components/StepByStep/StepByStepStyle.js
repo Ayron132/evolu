@@ -1,5 +1,7 @@
 import styled from "styled-components";
-import {FaSearch} from 'react-icons/fa';
+import { FaSearch } from 'react-icons/fa';
+import { GrSchedule } from 'react-icons/gr';
+import { BsCreditCard2Back } from 'react-icons/bs';
 
 
 
@@ -54,7 +56,13 @@ export const P = styled.p`
 `
 
 
-export const Icon = styled(FaSearch)`
+export const SearchIcon = styled(FaSearch)`
     background: rgba(234, 221, 255, 1);
 
+`
+export const ScheduleIcon = styled(GrSchedule)`
+    background: rgba(234, 221, 255, 1);
+`
+export const CreditCardIcon = styled(BsCreditCard2Back)`
+    background: rgba(234, 221, 255, 1)
 `

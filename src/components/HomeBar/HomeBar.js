@@ -8,26 +8,22 @@ import {
 
 
 function HomeBar() {
-
-
-
     return (
-
         <>
             <UserNav>
-                    <UserUl>
-                        <UserLi>
-                            <UserLinks className="active
+                <UserUl>
+                    <UserLi>
+                        <UserLinks className="active
                             " to="/">
-                                Cliente
-                            </UserLinks>
-                        </UserLi>
-                        <UserLi>
-                            <UserLinks to="/terapeuta">
-                                Terapeuta
-                            </UserLinks>
-                        </UserLi>
-                    </UserUl>
+                            Cliente
+                        </UserLinks>
+                    </UserLi>
+                    <UserLi>
+                        <UserLinks to="/terapeuta">
+                            Terapeuta
+                        </UserLinks>
+                    </UserLi>
+                </UserUl>
             </UserNav>
         </>
     )
