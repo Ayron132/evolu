@@ -9,7 +9,6 @@ const Body = () => {
     return (
         <>
             <ClientOptions/>
-            <ChipsSet />
             <StepByStep/>
         </>
     )

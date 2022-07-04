@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import ChipsSet from '../ChipsSet/ChipsSet';
 
 //style
 import {
@@ -58,6 +59,8 @@ function ClientOptions() {
             {checked === 'todos' ? <SearchAll /> : ""}
             {checked === 'online' ? <SearchOnline/> : ""}
             {checked === 'presencial' ? <SearchInPerson /> : ""}
+
+            <ChipsSet/>
         </OnlineContainer>
         </>
     )
