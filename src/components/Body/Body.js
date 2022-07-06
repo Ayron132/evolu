@@ -1,5 +1,5 @@
 //components
-import StepByStep from '../StepByStep/StepByStep';
+import StepByStep from '../StepByStep/index';
 import ChipsSet from '../ChipsSet/ChipsSet';
 import ClientOptions from '../SearchOptions/ClientOptions';
 
@@ -10,6 +10,7 @@ const Body = () => {
         <>
             <ClientOptions/>
             <StepByStep/>
+            <p>teste</p>
         </>
     )
 }

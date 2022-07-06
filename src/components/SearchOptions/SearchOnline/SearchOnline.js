@@ -8,8 +8,6 @@ import {
 } from "./SearchOnlineStyle"
 
 function SearchOnline() {
-
-
     const search_list = ["mapa solar", "mapa astral"];
     return (
         <InputContainer>
@@ -19,6 +17,8 @@ function SearchOnline() {
                     <Option key={item} value={item} />
                 ))}
             </DataList>
+
+
             <Button>Pesquisar</Button>
         </InputContainer>
     )

@@ -1,19 +1,20 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import {
     LabelText,
     Button,
     OnlineFilter
 } from "./ChipsSetStyle";
 
+
 function ChipsSet() {
-    const lista = ["Aromaterapia","Ayurveda","Búzios","Mapa astral","Mapa solar", "Meditação","Astrocartografia","Ver todos"];
+    const chips_list = ["Aromaterapia","Ayurveda","Búzios","Mapa astral","Mapa solar", "Meditação","Astrocartografia","Ver todos"];
     return (
         <OnlineFilter>
-            {lista.map((item) => (     
-                <>      
-                    <Button id={item} name="age"/>
+            {chips_list.map((item) => (     
+                <Fragment key={item}>      
+                    <Button id={item} name="chips-group"/>
                     <LabelText htmlFor={item}>{item}</LabelText>
-                </> 
+                </Fragment> 
             ))}  
         </OnlineFilter>
         // <>

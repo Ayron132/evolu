@@ -1,7 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@400;600&family=Yeseva+One&display=swap');
 
-
+.container{
+  min-height: 60vh;
+  margin-bottom: 5em;
+}
 
 
 *{

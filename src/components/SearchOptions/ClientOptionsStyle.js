@@ -30,7 +30,7 @@ export const OnlineP = styled.p`
 `
 export const OnlineFilter = styled.div`
     margin-top: 30px;
-    align-items: left;
+    
     padding: 0px 0px;
 `
 
@@ -54,6 +54,8 @@ export const LabelText = styled.label`
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+
+    display: inline-block;
 
     ${Button}:checked + &&{
         color: rgba(29, 25, 43, 1);

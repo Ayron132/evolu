@@ -21,7 +21,6 @@ const Navbar = ({ toggle }) => {
                                 about
                             </NavLinks>
                         </NavItem>
-                        
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

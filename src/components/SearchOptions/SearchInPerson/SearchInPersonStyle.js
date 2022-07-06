@@ -24,7 +24,7 @@ export const Option = styled.option`
 
 export const InputContainer = styled.div`
     
-    padding: 0px 21px 0px 21px;
+    padding: 0  px 21px 0px 21px;
    
 
 `

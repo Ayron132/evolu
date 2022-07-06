@@ -5,7 +5,6 @@ import { Link as LinkR } from "react-router-dom";
 //NAV USER
 export const UserNav = styled.div`
     height: 50px;
-    margin-top: 80px;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
@@ -51,8 +50,6 @@ export const UserLinks = styled(LinkR)`
         width: 0%;
         
         background-color: rgba(103, 80, 164, 1);
-        
-
         transition: .4s
     }
     &:hover::after, &.active::after{

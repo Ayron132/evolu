@@ -11,24 +11,18 @@ export const OnlineFilter = styled.div`
    
 `
 
-
-
-
-
-
 export const LabelText = styled.label`
     position: relative;
     color: rgba(73, 69, 79, 1);
     border: 1px solid rgba(73, 69, 79, 1);
     font-size: 12px;
     border-radius: 8px;
-    padding: 8px;
-    
+    padding: 6px 10px 6px 10px;
     align-items: center;
     display: inline-block;
     margin: 5px;
 `
-export const Button = styled.input.attrs({ type: "radio" })`
+export const Button = styled.input.attrs({ type: "checkbox" })`
     display: none;
     &:checked + ${LabelText}{
         color: rgba(29, 25, 43, 1);
