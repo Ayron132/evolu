@@ -1,5 +1,5 @@
 import React from 'react'
-import { Pcontainer, Section } from './style'
+import { Container, Section } from './style'
 import Items from "./items/index";
 
 function StepByStep() {
@@ -29,9 +29,9 @@ function StepByStep() {
 
     return (
         <Section>
-            <Pcontainer>
+            <Container>
                 <Items data_list={data_items}/>
-            </Pcontainer>
+            </Container>
         </Section>
     )
 }

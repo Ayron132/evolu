@@ -4,13 +4,14 @@ import ChipsSet from '../ChipsSet/ChipsSet';
 import ClientOptions from '../SearchOptions/ClientOptions';
 
 import React from 'react'
+import Footer from '../Footer/index';
 
 const Body = () => {
     return (
         <>
-            <ClientOptions/>
+           <ClientOptions/>
             <StepByStep/>
-            <p>teste</p>
+            <Footer/>
         </>
     )
 }

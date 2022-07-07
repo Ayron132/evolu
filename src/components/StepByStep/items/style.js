@@ -16,7 +16,7 @@ export const Items = styled.div`
     width: 650px;
 `
 
-export const Item = styled.div`
+export const ParagraphDiv = styled.div`
     display: flex;
     margin: 27px 0px 23px 0px;
     font-size: 1.2rem;

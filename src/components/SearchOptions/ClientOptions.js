@@ -10,12 +10,12 @@ import {
     OnlineFilter,
     OnlineH1,
     OnlineP,
-    CheckBtn
+    Img
 } from "./ClientOptionsStyle";
 
 
 //components
-
+import CheckBtn from '../../assets/chips/check.svg'
 
 import SearchAll from './SearchAll/SearchAll';
 import SearchInPerson from './SearchInPerson/SearchInPerson';
@@ -44,13 +44,13 @@ function ClientOptions() {
                 <OnlineFilter>
 
                     <Button id="todos" name="a"  />
-                    <LabelText onClick={() => handleChange('todos')} htmlFor='todos'>{checked === 'todos' ? <CheckBtn /> : ""}Todos</LabelText>
+                    <LabelText onClick={() => handleChange('todos')} htmlFor='todos'>{checked === 'todos' ? <Img src={CheckBtn}/> : " "}Todos</LabelText>
 
                     <Button id='online' name="a" defaultChecked={checked === 'online' ? true : false}/>
-                    <LabelText onClick={() => handleChange('online')} htmlFor='online'>{checked === 'online' ? <CheckBtn /> : ""}Online</LabelText>
+                    <LabelText onClick={() => handleChange('online')} htmlFor='online'>{checked === 'online' ? <Img src={CheckBtn}/> : ""}Online</LabelText>
 
                     <Button id='presencial' name="a" />
-                    <LabelText onClick={() => handleChange('presencial')} htmlFor='presencial'>{checked === 'presencial' ? <CheckBtn /> : ""}Presencial</LabelText>
+                    <LabelText onClick={() => handleChange('presencial')} htmlFor='presencial'>{checked === 'presencial' ? <Img src={CheckBtn}/> : " "}Presencial</LabelText>
                 </OnlineFilter>
             </OnlineContent>
 

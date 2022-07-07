@@ -11,6 +11,10 @@ export const OnlineContainer = styled.div`
     
 `
 
+export const Img = styled.img`
+    margin-right: 10px;
+`
+
 export const OnlineContent = styled.div`
     z-index: 3;
     max-width: 1200px;

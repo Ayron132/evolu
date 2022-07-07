@@ -10,9 +10,10 @@ export const Section = styled.section`
     padding: 35px 21px;
     background-color: rgba(234, 221, 255, 1);
     margin-top: 30px;
+    
 `
 
-export const Pcontainer = styled.div`
+export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
